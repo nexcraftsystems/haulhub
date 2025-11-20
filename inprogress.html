@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HaulHub.my - Under Construction</title>
+  <meta name="description" content="HaulHub – Asia’s leading digital logistics platform. Website under construction. Launching soon!">
+
+  <!-- Favicons -->
+  <link href="assets/img/haulhub-logo.jpg" rel="icon">
+  <link href="assets/img/haulhub-logo.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f8f9fa;
+      font-family: 'Poppins', sans-serif;
+      color: #1a2e5a;
+    }
+
+    .under-construction {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    /* MASSIVE logo, super close to the title */
+    .logo img {
+      width: 420px;           /* Even bigger */
+      max-width: 92vw;
+      height: auto;
+      /* Almost touching the title */
+      filter: drop-shadow(0 6px 16px rgba(0,0,0,0.12));
+    }
+
+    h1 {
+      font-size: 4.2rem;
+      font-weight: 900;
+      color: #1a2e5a;
+      margin: 0 0 0.3rem 0;   /* Extremely tight */
+      letter-spacing: -2px;
+      line-height: 1;
+    }
+
+    p.lead {
+      font-size: 1.55rem;
+      font-weight: 600;
+      color: #2c4b8b;
+      margin: 0 0 1rem 0;
+    }
+
+    .spinner {
+      font-size: 4.8rem;
+      color: #233863;
+      animation: spin 3s linear infinite;
+      margin: 1rem 0 1.2rem 0;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .coming-soon {
+      font-size: 1.3rem;
+      color: #1a2e5a;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 576px) {
+      .logo img {
+        width: 320px;
+        margin-bottom: 0;
+      }
+      h1 {
+        font-size: 3rem;
+        margin: 0.2rem 0;
+        letter-spacing: -1px;
+      }
+      p.lead { font-size: 1.3rem; }
+      .spinner { font-size: 3.8rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="under-construction">
+
+    <!-- Huge logo almost touching the text -->
+    <div class="logo">
+      <img src="assets/img/haulhub-logo2.png" alt="HaulHub Logo">
+    </div>
+
+    <h1>Under Construction</h1>
+    <p class="lead">We’re building Asia’s smartest logistics platform.</p>
+
+    <div class="spinner">
+      <i class="bi bi-gear-wide-connected"></i>
+    </div>
+
+    <p class="coming-soon">Launching very soon.<br>Thank you for your patience!</p>
+
+  </div>
+
+</body>
+</html>
